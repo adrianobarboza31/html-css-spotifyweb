@@ -250,12 +250,10 @@ li div.ops{
 }
 .debug{
     min-height: 95px;
-    background-color: blue;
     width:calc(100%/6);
 }
 .debug2{
     min-height: 95px;
-    background-color: red;
     width:calc((100% /6 ) *4);  
 }
 .ct{
@@ -263,10 +261,11 @@ li div.ops{
     align-items: center;
 }
 #dx{
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
 }
 #sx{
-    padding-right: 1rem;
+    padding-right: 0.5rem;
 }
 .column{
     flex-direction: column;
@@ -279,4 +278,33 @@ li div.ops{
 }
 #pd{
     padding: 0 0.5rem;
+}
+.sinister{
+    width: 40px;
+    height: 40px;
+}
+.sinister img{
+    width: 100%;
+}
+.bianco{
+    color: white;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+.mini{
+    font-size: 0.6rem;
+}
+div.column i{
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+}
+#grande{
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+.giuuu{
+    padding-top: 10px;
+}
+#pd i{
+    font-size: 0.8rem;
 }
