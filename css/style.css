@@ -36,8 +36,12 @@ footer{
     bottom: 0;
     z-index: 3;
 }
+.text{
+    color: var(--text-grey);
+    font-weight: bolder;
+}
 .dx{
-    width: calc(0%10 - 230px);
+    width: calc(100% - 230px);
     height: 100%;
     background-color: var(--deep-blue);
 }
@@ -48,8 +52,11 @@ footer{
    padding-top: 100px;
     
 }
+img{
+    display: block;
+}
 .top{
-    width:calc(100% - 200px);
+    width:calc(100% - 230px);
     height: 95px;
     background-color: var(--black-opacity);
     position: fixed;
@@ -63,10 +70,37 @@ footer{
 .flex{
     display: flex;
 }
+.text-up{
+   text-transform: uppercase;
+}
 .content-center{
     justify-content: center;
 }
 /* BOTTOM */
+.plays{
+    position: relative;  
+}
+
+.dio i{
+    left: 0;
+    top: 0;
+    font-size: 3rem;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: var(--black-opacity);
+}
+div.dio{
+    display: none;
+}
+div.plays:hover{
+    display: block;
+   
+}
 .bottom li{
     color: var(--text-grey);
     list-style: none;
@@ -106,6 +140,14 @@ h2{
     border-radius: 50%;
 }
 /* TOP */
+ul li.active::after{
+content: '';
+width: 50%;
+display: block;
+height: 2px;
+background-color: var(--lime-green);
+margin:5px auto;
+}
 .top a{
     text-decoration: none;
     color: var(--text-white);
@@ -117,8 +159,92 @@ h2{
 }
 .top{
    align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-end;  
+}
+.lx{
+    margin-right: 25px;
+}
+/* LOGO */
+.lg{
+    display: none;
+}
+.wrapper2{
+    width: 85%;
+    padding: 1.5rem 0 0 1rem;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.wrapper2 img{
+    width: 80%;
+}
+.menu li{
+    color: var(--text-grey);
+    list-style: none;
+    padding-top: 1rem;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+.menu{
+    padding-top: 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+}
+.playlist{
+    padding-top: 0.8rem;
+}
+li div i{
+    color: black;
+    font-size: 1rem;
+}
+li div.ops{
+    background-color: var(--text-grey);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genio{
+    align-items: center;
+}
+.gg{
+    padding-left: 1rem;
+}
+#bianco{
+    color: white;
+}
+/* GIU */
+.giu hr{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.giu #bianco{
+    padding-bottom: 1.5rem;
+}
+.giu img{
+    width: 1rem;
+    display: inline;
+}
+.testo{
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    /* padding-top: 0.5rem; */
+}
+.pad{
+    padding-top: 0.5rem;
+}
+.grigio{
+    background-color: var(--text-grey);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
+.giu{
+    padding-top: 1rem;
+}
