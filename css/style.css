@@ -248,3 +248,35 @@ li div.ops{
 .giu{
     padding-top: 1rem;
 }
+.debug{
+    min-height: 95px;
+    background-color: blue;
+    width:calc(100%/6);
+}
+.debug2{
+    min-height: 95px;
+    background-color: red;
+    width:calc((100% /6 ) *4);  
+}
+.ct{
+    justify-content: space-between;
+    align-items: center;
+}
+#dx{
+    padding-left: 1rem;
+}
+#sx{
+    padding-right: 1rem;
+}
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.co{
+    justify-content: flex-end;
+    align-items: center;
+}
+#pd{
+    padding: 0 0.5rem;
+}
