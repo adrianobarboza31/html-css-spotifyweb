@@ -17,6 +17,7 @@ html {
 }
 body {
     font-family: 'Montserrat', sans-serif;
+   
 }
 main{
     width: 100%;
@@ -423,7 +424,35 @@ section.top div.lx:hover{
     ul.content-center{
         flex-wrap: wrap;
     }
+    .sp{
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width:550px) {
-    
+    nav{
+        width: 15%;
+    }
+    .dx{
+        width: 85%;
+    }
+    .top{
+        width: 85%;
+    }
+    .gl{
+        display: none;
+    }
+    .lg{
+        display: block;
+    }
+    .tt{
+        text-align: center;
+    }
+    .sp{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:285px){
+   .lx{
+    display: none;
+   } 
 }
